@@ -8,5 +8,6 @@ namespace GameFramework.Online.Interfaces {
     public interface IOnlineManager
     {
         IOnlineUserInterface GetUserInterface();
+        IFriendsInterface GetFriendsInterface();
     }
 }
